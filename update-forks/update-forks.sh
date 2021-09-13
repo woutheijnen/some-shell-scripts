@@ -1,5 +1,5 @@
 #!/bin/bash
-for D in `find ~/Documents/Projects/forks -mindepth 1 -maxdepth 1 -type d`
+for D in `find /mnt/532b7e3f-a0ed-4457-aa31-a593d128fb07/forks -mindepth 1 -maxdepth 1 -type d`
 do
 	cd ${D}
 	git fetch -p -P -t
